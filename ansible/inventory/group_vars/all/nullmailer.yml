@@ -12,5 +12,5 @@ nullmailer__relayhost: 'mail.{{ nullmailer__domain }}'
 # to which address send all emails
 nullmailer__adminaddr: [ 'support@{{ nullmailer__domain }}' ]
 
-# to receive emails from ansible_hostname@
+# to receive emails from user@ansible_hostname.nullmailer__domain
 nullmailer__defaulthost: '{{ ansible_hostname }}'
