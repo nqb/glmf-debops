@@ -1,0 +1,16 @@
+---
+# nullmailer__domain equals to ansible_domain (or ansible_hostname if not set)
+# which relay to use
+nullmailer__relayhost: 'mail.{{ nullmailer__domain }}'
+
+# send mails using SMTP through relay with authentication
+# nullmailer__relayhost_options:
+#   auth: True
+#   user: '{{ ansible_hostname }}'
+#   password: secret
+
+# to which address send all emails
+nullmailer__adminaddr: [ 'support@{{ nullmailer__domain }}' ]
+
+# to receive emails from user@ansible_hostname.nullmailer__domain
+nullmailer__defaulthost: '{{ ansible_hostname }}'
