@@ -1,0 +1,2 @@
+---
+apt_cacher_ng__fqdn: '{{ ansible_hostname }}.{{ ansible_domain }}'
