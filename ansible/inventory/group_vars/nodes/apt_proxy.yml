@@ -1,3 +1,4 @@
 ---
-apt_proxy__http_url: 'http://master.{{ ansible_domain }}'
-apt_proxy__https_url: 'https://master.{{ ansible_domain }}'
+apt_proxy__http_url: 'http://{{ apt_cacher_ng__fqdn }}'
+apt_proxy__https_url: 'https://{{ apt_cacher_ng__fqdn }}'
+
