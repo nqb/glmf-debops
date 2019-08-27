@@ -1,0 +1,3 @@
+---
+apt_proxy__http_url: 'http://127.0.0.1:3142'
+apt_proxy__https_url: 'https://127.0.0.1:3142'
