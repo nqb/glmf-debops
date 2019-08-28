@@ -1,0 +1,2 @@
+---
+apt_cacher_ng__fqdn: 'proxy-apt.{{ ansible_domain }}'
