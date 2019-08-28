@@ -1,2 +1,2 @@
 ---
-apt_cacher_ng__fqdn: 'proxy-apt.{{ ansible_domain }}'
+apt_cacher_ng__fqdn: 'debops.{{ ansible_domain }}'
