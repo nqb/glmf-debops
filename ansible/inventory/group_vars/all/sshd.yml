@@ -1,6 +1,3 @@
 ---
 # enable password authentication
 sshd__password_authentication: 'yes'
-
-# which IP to whitelist
-sshd__whitelist: [ '172.28.128.5' ]

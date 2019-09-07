@@ -1,2 +1,3 @@
 ---
+# disable debops.unattended_upgrades role
 unattended_upgrades__enabled: False
